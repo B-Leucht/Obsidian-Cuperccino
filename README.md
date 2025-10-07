@@ -1,4 +1,4 @@
-# Cupercino
+# Cuperccino
 
 An Obsidian theme combining macOS Cupertino design with Catppuccin colors.
 
@@ -11,18 +11,16 @@ An Obsidian theme combining macOS Cupertino design with Catppuccin colors.
 
 ## Installation
 
-### Community Themes
-1. Settings → Appearance → Themes → Manage
-2. Search "Cupercino" → Install
-
 ### Manual
+
 1. Download `theme.css` and `manifest.json`
-2. Place in `[Vault]/.obsidian/themes/Cupercino/`
+2. Place in `[Vault]/.obsidian/themes/Cuperccino/`
 3. Enable in Settings → Appearance
 
 ## Customization
 
 Install [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin for options:
+
 - Active line highlighting
 - Auto-sizing tabs
 - Block width
