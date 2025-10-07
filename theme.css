@@ -427,7 +427,13 @@ body {
 
 /* Highlighted Text */
 .cm-highlight, .markdown-preview-view mark {
-  background-color: #fab387 !important;
+  background-color: rgb(var(--ctp-yellow)) !important;
+  color: rgb(var(--ctp-base)) !important;
+}
+
+body.theme-light .cm-highlight,
+body.theme-light .markdown-preview-view mark {
+  background-color: rgb(var(--ctp-yellow)) !important;
   color: rgb(var(--ctp-crust)) !important;
 }
 
@@ -554,6 +560,7 @@ body {
 }
 /* Catppuccin Latte (Light Theme) */
 body.theme-light {
+  /* Catppuccin Latte palette */
   --ctp-rosewater: 220, 138, 120;
   --ctp-flamingo: 221, 120, 120;
   --ctp-pink: 234, 118, 203;
@@ -566,7 +573,7 @@ body.theme-light {
   --ctp-teal: 23, 146, 153;
   --ctp-sky: 4, 165, 229;
   --ctp-sapphire: 32, 159, 181;
-  --ctp-overlay0: 30, 102, 245;
+  --ctp-blue: 30, 102, 245;
   --ctp-lavender: 114, 135, 253;
   --ctp-text: 76, 79, 105;
   --ctp-subtext1: 92, 95, 119;
@@ -580,7 +587,7 @@ body.theme-light {
   --ctp-base: 239, 241, 245;
   --ctp-mantle: 230, 233, 239;
   --ctp-crust: 220, 224, 232;
-  --ctp-accent: var(--ctp-lavender);
+  --ctp-accent: var(--ctp-blue);
 
   /* Map to Obsidian variables */
   --background-primary: rgb(var(--ctp-base));
